@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic|Oswald:400,700|Bangers);
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 5, ../scss/style.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 7, ../scss/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 11, ../scss/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/***** SITE STYLES *************/
+/**********************************/
+/* line 27, ../scss/style.scss */
+.wrapper {
+  margin: 0 auto;
+  background: #E8F3FF;
+}
+
+/* line 33, ../scss/style.scss */
+p, input, label {
+  font-family: 'Merriweather', serif;
+}
+
+/* line 37, ../scss/style.scss */
+h1 {
+  font-family: 'Bangers', cursive;
+  border-bottom: 2px solid black;
+}
+
+/* line 42, ../scss/style.scss */
+a, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 47, ../scss/style.scss */
+header {
+  margin-bottom: 50px;
+  position: relative;
+}
+/* line 51, ../scss/style.scss */
+header .header {
+  width: 75%;
+}
+/* line 55, ../scss/style.scss */
+header ul {
+  list-style: none;
+  padding: none;
+}
+/* line 59, ../scss/style.scss */
+header ul .profile {
+  width: 20%;
+  position: absolute;
+  top: 8%;
+  right: 17%;
+}
+/* line 66, ../scss/style.scss */
+header ul .projects {
+  width: 20%;
+  position: absolute;
+  top: 41%;
+  right: 27%;
+}
+/* line 73, ../scss/style.scss */
+header ul .history {
+  width: 20%;
+  position: absolute;
+  top: 67%;
+  right: 47%;
+}
+/* line 80, ../scss/style.scss */
+header ul .billing {
+  width: 20%;
+  position: absolute;
+  top: 84%;
+  right: 75%;
+}
+
+/* line 89, ../scss/style.scss */
+#login {
+  padding: 0px 25px;
+}
+/* line 93, ../scss/style.scss */
+#login .login_box, #login .password_reset {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjE5MTg2IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43ODA4MTQiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI3NDc5OSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBmMWY0ZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(295deg, #274799, #0f1f4e);
+  background-image: -webkit-linear-gradient(295deg, #274799, #0f1f4e);
+  background-image: linear-gradient(155deg, #274799, #0f1f4e);
+  border-radius: 7px;
+  padding: 20px 20px;
+  margin-bottom: 35px;
+}
+/* line 99, ../scss/style.scss */
+#login .login_box h2, #login .password_reset h2 {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: white;
+}
+/* line 105, ../scss/style.scss */
+#login .login_box input, #login .password_reset input {
+  margin: 8px 0 18px 0;
+  width: 75%;
+}
+/* line 110, ../scss/style.scss */
+#login .login_box .button, #login .password_reset .button {
+  background: #c0432c;
+  border-radius: 5px;
+  color: #E2F0FF;
+  width: 40%;
+  text-align: center;
+  border: none;
+}
+/* line 119, ../scss/style.scss */
+#login .login_box .submit, #login .password_reset .submit {
+  display: block;
+  text-align: right;
+}
+
+/* line 129, ../scss/style.scss */
+#projects {
+  padding: 0px 25px;
+}
+/* line 133, ../scss/style.scss */
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 138, ../scss/style.scss */
+#projects a {
+  font-size: 1.3em;
+  line-height: 1.9em;
+}
+/* line 143, ../scss/style.scss */
+#projects div {
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+/* line 148, ../scss/style.scss */
+#projects div a {
+  margin-top: 50px;
+  background: #c0432c;
+  border-radius: 5px;
+  color: #E2F0FF;
+  text-decoration: none;
+  width: 50%;
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 1em;
+}
+/* line 160, ../scss/style.scss */
+#projects div h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+/* line 166, ../scss/style.scss */
+#projects div span {
+  display: block;
+  text-align: right;
+}
+
+/* line 175, ../scss/style.scss */
+#details {
+  padding: 0px 25px;
+}
+/* line 180, ../scss/style.scss */
+#details .files img {
+  width: 15%;
+}
+/* line 185, ../scss/style.scss */
+#details textarea {
+  width: 90%;
+}

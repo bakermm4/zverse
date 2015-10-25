@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Site Template</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <header>
+                
+                <img class="header" src="img/header.png">
+                <ul>
+                    <li><a href="profile.html"><img class="profile" src="img/profile.png"></a></li>
+                    <li><a href="projects.html"><img class="projects" src="img/projects.png"></a></li>
+                    <li><a href="history.html"><img class="history" src="img/history.png"></a></li>
+                    <li><a href="billing.html"><img class="billing" src="img/billing.png"></a></li>
+                </ul>
+
+            </header>
+
+
+            <div class="container" id="details">
+
+                <h1>Layr artist network</h1>
+
+            </div>
+
+            <div>
+                <h4>Billing Preference</h4>
+
+                 <label for="radio-choice-1">Banking</label>
+                 <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
+
+                 <label for="radio-choice-2">Paypal</label>
+                 <input type="radio" name="radio-choice-1" id="radio-choice-2" tabindex="2" value="choice-2" />
+
+            </div>
+
+            <div class="check">
+                <img src="img/check.gif">
+
+                <div>
+                    <label for="name">Routing Number</label>
+                    <input type="text" name="routing" id="routing" value="" tabindex="1" />
+                </div>
+
+                <div>
+                    <label for="name">Account Number</label>
+                    <input type="text" name="account" id="account" value="" tabindex="1" />
+                </div>
+
+                <div>
+                    <label for="name">Name On Account</label>
+                    <input type="text" name="name_on_account" id="name_on_account" value="" tabindex="1" />
+                </div>
+
+                <div>
+                    <label for="name">Bank Name</label>
+                    <input type="text" name="bank_name" id="bank_name" value="" tabindex="1" />
+                </div>
+                <div>
+                    <label for="select-choice">Account Type</label>
+
+                    <select name="select-choice" id="select-choice">
+                        <option value="Choice 1"></option>
+                        <option value="Choice 2">Checking</option>
+                        <option value="Choice 3">Savings</option>
+                        <option value="Choice 4">IRA</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="paypal">
+
+                <div>
+                    <label for="name">Paypal e-mail address</label>
+                    <input type="text" name="name_on_account" id="name_on_account" value="" tabindex="1" />
+                </div>
+
+                <div>
+                    <label for="select-choice">Currency Type</label>
+
+                    <select name="select-choice" id="select-choice">
+                        <option value="Choice 1"></option>
+                        <option value="Choice 2">US Dollars</option>
+                        <option value="Choice 3">Euros</option>
+                        <option value="Choice 4">Deutsche Marks</option>
+                        <option value="Choice 5">Lira</option>
+                        <option value="Choice 6">Yen</option>
+                        <option value="Choice 7">Beads</option>
+                        <option value="Choice 8">Rocks</option>
+                        <option value="Choice 9">Smallpox Blankets</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <a href="#">Logout</a>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
